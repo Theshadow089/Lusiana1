@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@500&display=swap');
+
+* {
+    transition: 500ms;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fullpage {
+    
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    left: 0vw;
+    top: 0vw;
+    
+}
+
+.cover1 {
+    
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    left: 0vw;
+    top: 0vw;
+    
+    background: url(img/Rectangle.png);
+}
+
+.cover2 {
+    
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    left: 0vw;
+    top: 0vw;
+    
+    background: url(img/fghgd1.png);
+}
+
+.cover3 {
+    
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    left: 0vw;
+    top: 0vw;
+    
+    background: url(img/Group1613.png);
+}
+
+.dailyrewardtext {
+    position: absolute;
+    width: 37.708vw;
+    height: 9.063vw;
+    left: 31.146vw;
+    top: 3.438vw;
+
+    background: url(img/rm425-05.png);
+}
+
+.motivationtext {
+    position: absolute;
+    width: 26.510vw;
+    height: 2.396vw;
+    left: 36.927vw;
+    top: 12.917vw;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.875vw;
+    line-height: 2.396vw;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFDC5F;
+
+}
+
+.motivationtextsecond {
+    position: absolute;
+    width: 35.365vw;
+    height: 3.177vw;
+    left: 32.760vw;
+    top: 12.5vw;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 3.177vw;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 0.052vw;
+    -webkit-text-stroke-color: rgba(88, 88, 88, 0.445);
+
+}
+
+.gift {
+    position: absolute;
+    width: 15.990vw;
+    height: 19.063vw;
+    left: -104.531vw;
+    top: 18.490vw;
+
+    background: url(img/image-removebg-preview.png);
+}
+
+.giftbg1 {
+    position: absolute;
+    width: 15.625vw;
+    height: 15.625vw;
+    left: 37.708vw;
+    top: 18.333vw;
+    
+    background: #7875FF;
+    filter: blur(7.292vw);
+}
+
+.giftbg2 {
+    position: absolute;
+    width: 15.625vw;
+    height: 15.625vw;
+    left: 48.177vw;
+    top: 23.021vw;
+    
+    background: #FF7575;
+    filter: blur(7.292vw);
+}
+
+.desc {
+    position: absolute;
+    width: 17.083vw;
+    height: 2.396vw;
+    left: 41.615vw;
+    top: 38.646vw;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.938vw;
+    line-height: 1.198vw;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.button {
+    position: absolute;
+    width: 14.948vw;
+    height: 4.531vw;
+    transition: 500ms;
+    left: 42.552vw;
+    top: 43.073vw;
+    
+    background: linear-gradient(93.69deg, #8941FF -19.99%, #32EAFF 134.48%);
+    box-shadow: 0vw 2.344vw 3.802vw rgba(98, 139, 255, 0.25), inset 0vw 0vw 0.833vw rgba(255, 255, 255, 0.55);
+    border-radius: 0.573vw;
+    border: 0.052vw solid transparent;
+}
+
+.button .btntext {
+    position: absolute;
+    width: 3.906vw;
+    height: 1.198vw;
+    left: 5.469vw;
+    top: 1.563vw;
+
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.938vw;
+    line-height: 1.198vw;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: linear-gradient(93.69deg, #6200ff -19.99%, #00e5ff 134.48%);
+    box-shadow: 0vw 2.344vw 3.802vw rgba(98, 139, 255, 0.25), inset 0vw 0vw 0.833vw rgba(255, 255, 255, 0.55);
+    border-radius: 0.573vw;
+    border: 0.052vw solid transparent; 
+}
